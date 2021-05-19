@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
   <title>Document</title>
 </head>
+
 <body>
-  
+  <div class="container">
+
+    <header>
+      <h1>To-do List</h1>
+      <form class="form-search">
+        <input class="input-search" type="text" name="search" placeholder="Buscar">
+        <button class="button-search" type="submit"><img src="/assets/lupa.svg" alt="Pesquisar"></button>
+      </form>
+    </header>
+
+    <div class="to-do-container">
+      <ul>
+        <li>
+          <span>Estudar</span>
+          <button class="button-delete"><img src="/assets/lixeira.svg" alt="Deletar"></button>
+        </li>
+
+        <li>
+          <span>Ler livros</span>
+          <button class="button-delete"><img src="/assets/lixeira.svg" alt="Deletar"></button>
+        </li>
+
+        <li>
+          <span>Fazer exercícios físicos</span>
+          <button class="button-delete"><img src="/assets/lixeira.svg" alt="Deletar"></button>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <h2>Adicionar tarefas</h2>
+      <form class="form-add">
+        <input class="input-add" type="text" name="add" autofocus />
+        <button class="button-add" type="submit"><img src="/assets/add.svg" alt="Deletar"></button>
+      </form>
+    </footer>
+  </div>
 
   <script src="/app.js"></script>
 </body>
+
 </html>
