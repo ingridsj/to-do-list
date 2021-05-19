@@ -76,7 +76,7 @@ ul {
   width: 20rem;
 }
 
-li {
+.li-container {
   margin-bottom: 0.2rem;
   width: 20rem;
   padding: 0.6rem;
@@ -124,7 +124,7 @@ label {
   outline: none;
 }
 
-button.button-add {
+.button-add {
   position: absolute;
   top: 0; 
   right: 0;
