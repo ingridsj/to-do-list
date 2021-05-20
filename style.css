@@ -100,12 +100,8 @@ span {
   top: 0; 
   right: 0;
 
-  padding: 0.6rem;
-  height: 100%; 
-
-  background-color: transparent;
-  
-  border: none;
+  margin-top: 10px;
+  margin-right: 10px;
 
   cursor: pointer;
 }
