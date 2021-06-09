@@ -149,3 +149,7 @@ h2 {
 .hidden {
   display: none;
 }
+
+.showing {
+  display: default;
+}
